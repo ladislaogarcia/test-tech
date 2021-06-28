@@ -42,7 +42,18 @@ If you want to populate your database with many registers, after database server
 
     npm run database:populate
 
-This will fill some payments in our payments database. After it finish, you can close this terminal. DO NOT FORGET. Each time you do this, the same registers will be added to your database. It is suggested to do it just once, just when you start the database server for the first time.
+This would have to fill some payments in our payments database. After it finish, you can close this terminal. DO NOT FORGET. Each time you do this, the same registers will be added to your database. It is suggested to do it just once, just when you start the database server for the first time.
+
+You can try typing
+
+    mongo
+
+in a terminal. When mongo prompt appears ( > ), type:
+
+    set tech_test
+
+With much time, I would resolve it. No doubts.    
+
 <br/>
 2. Open another terminal. Run
 
