@@ -1,0 +1,22 @@
+{
+  "name": "ing-tech-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node ./scripts/prestart.js",
+    "start": "mongod --dbpath ./data && mongoimport --db=tech_test --file=mocks.json --collection=Payments --drop",
+    "populate": "mongoimport --db=tech_test --file=./mocks.json --collection=Payments --jsonArray",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "path": "data"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.15"
+  }
+}

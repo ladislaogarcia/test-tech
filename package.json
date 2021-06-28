@@ -1,0 +1,25 @@
+{
+  "name": "test-tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd ./ing-tech-db && npm i && cd ./ing-tech-back && npm i && cd ./ing-tech && npm i",
+    "database": "cd ./ing-tech-db && npm start",
+    "database:populate": "cd ./ing-tech-db && npm run populate",
+    "api": "cd ./ing-tech-back && npm start",
+    "frontend": "cd ./ing-tech && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladislaogarcia/test-tech.git"
+  },
+  "author": "Ladislao García <malcomcc@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ladislaogarcia/test-tech/issues"
+  },
+  "homepage": "https://github.com/ladislaogarcia/test-tech#readme"
+}
