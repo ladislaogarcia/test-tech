@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prestart": "node ./scripts/prestart.js",
-    "start": "mongod --dbpath ./data && mongoimport --db=tech_test --file=mocks.json --collection=Payments --drop",
-    "populate": "mongoimport --db=tech_test --file=./mocks.json --collection=Payments --jsonArray",
+    "start": "mongod --dbpath ./data",
+    "populate": "mongoimport --db tech_test --file ./scripts/mocks.json --collection payment -v",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "config": {

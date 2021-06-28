@@ -38,11 +38,22 @@ The right way to do it, is as I suggest you. There are three steps to follow. Th
 
 in order to run the database server. Wait until finish.
 
-If you want to populate your database with many registers, after database server was running, open a new terminal and type:
+If you want to populate your database with many registers, after database server was running, open a new terminal and type. **It is not working. Very strange matter**.
 
     npm run database:populate
 
-This will fill some payments in our payments database. After it finish, you can close this terminal. DO NOT FORGET. Each time you do this, the same registers will be added to your database. It is suggested to do it just once, just when you start the database server for the first time.
+This would have to fill some payments in our payments database. After it finish, you can close this terminal. DO NOT FORGET. Each time you do this, the same registers will be added to your database. It is suggested to do it just once, just when you start the database server for the first time.
+
+You can try typing
+
+    mongo
+
+in a terminal. When mongo prompt appears ( > ), type:
+
+    set tech_test
+
+With much time, I would resolve it. No doubts.    
+
 <br/>
 2. Open another terminal. Run
 
@@ -57,7 +68,7 @@ This will fill some payments in our payments database. After it finish, you can 
 3. Open one more terminal ( last one ) and type
 <br/>
 
-    npm run api
+    npm run frontend
     
 and you will be running the frontend of the project. A web browser will open automatically.
 
