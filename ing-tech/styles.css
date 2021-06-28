@@ -1,0 +1,46 @@
+:root {
+    --bg-color-light: #bbb;
+    --bg-color-dark: #333;
+
+}
+html, body {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header h1 {
+    padding-left: 1em;
+    font-size: 1.5em;
+}
+
+header hr {
+    border: 1.5rem solid var(--bg-color-dark);
+}
+
+#app_container {
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+ing-tech {
+    padding: 2rem;
+}
+
+footer {
+    display: block;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0 6px;
+    justify-content: space-between;
+}
