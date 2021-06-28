@@ -1,0 +1,26 @@
+{
+  "name": "ing-tech-back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev:debug",
+    "demo": "node ./bin/www",
+    "nodemon": "nodemon ./bin/www",
+    "dev": "npm run nodemon",
+    "dev:debug": "SET DEBUG=ing-tech-back:* & npm run dev",
+    "api": "npm start"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "nodemon": "^2.0.7"
+  }
+}
