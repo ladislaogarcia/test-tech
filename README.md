@@ -68,7 +68,7 @@ With much time, I would resolve it. No doubts.
 3. Open one more terminal ( last one ) and type
 <br/>
 
-    npm run api
+    npm run frontend
     
 and you will be running the frontend of the project. A web browser will open automatically.
 
