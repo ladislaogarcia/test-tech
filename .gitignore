@@ -103,8 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-ing-tech
-ing-tech-db
+ing-tech-db/data
 
 README.*
 
