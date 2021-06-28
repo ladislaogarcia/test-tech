@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd ./ing-tech-db && npm i && cd ./ing-tech-back && npm i && cd ./ing-tech && npm i",
+    "install": "cd ./ing-tech-db && npm i && cd ../ing-tech-back && npm i && cd ../ing-tech && npm i",
     "database": "cd ./ing-tech-db && npm start",
     "database:populate": "cd ./ing-tech-db && npm run populate",
     "api": "cd ./ing-tech-back && npm start",

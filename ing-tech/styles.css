@@ -34,6 +34,11 @@ ing-tech {
 
 footer {
     display: block;
+    background-color: var(--bg-color-dark);
+    color: white;
+    font-size: 85%;
+    padding: 0 1rem;
+    font-weight: 500;
 }
 
 footer ul {

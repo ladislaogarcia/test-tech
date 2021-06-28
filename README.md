@@ -38,7 +38,7 @@ The right way to do it, is as I suggest you. There are three steps to follow. Th
 
 in order to run the database server. Wait until finish.
 
-If you want to populate your database with many registers, after database server was running, open a new terminal and type:
+If you want to populate your database with many registers, after database server was running, open a new terminal and type. **It is not working. Very strange matter**.
 
     npm run database:populate
 
