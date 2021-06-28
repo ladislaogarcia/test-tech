@@ -84,3 +84,5 @@ NPM: https://www.npmjs.com/package/filter-transactions
 
 
 All of them will be installed in 'node_modules' folder when you install the dependencies.
+
+It could be much better with some more time. I can do averything it is asked.
